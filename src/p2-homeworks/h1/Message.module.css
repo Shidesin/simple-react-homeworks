@@ -1,3 +1,50 @@
-.message {
+
+.messages_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 5px;
+    align-items: center;
+}
+
+.avatar_block img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.item {
+    background-color: deepskyblue;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+.name_block {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: blue;
+}
+
+.text_time {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.message_block {
+    color: black;
+    margin-bottom: 2px;
+}
+
+.time_block {
+    align-self: flex-end;
+    margin-right: 2px;
+    margin-left: 5px;
+    color: rgba(0, 0, 0, 0.44);
+
 
 }
