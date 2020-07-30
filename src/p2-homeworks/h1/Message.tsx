@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import styles from './Message.module.css'
 
 type PropsType = {
@@ -11,7 +11,6 @@ type PropsType = {
 function Message(props: PropsType) {
     return (
         <div>
-
             <div className={styles.messages_block}>
                 <div className={styles.avatar_block}><img src={props.avatar} alt="avatar"/></div>
                 <div className={styles.item}>
