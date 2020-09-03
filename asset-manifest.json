@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Shidesin/simple-react-homeworks.git/static/css/main.829ad4ba.chunk.css",
+    "main.js": "/Shidesin/simple-react-homeworks.git/static/js/main.bc49df7d.chunk.js",
+    "main.js.map": "/Shidesin/simple-react-homeworks.git/static/js/main.bc49df7d.chunk.js.map",
+    "runtime-main.js": "/Shidesin/simple-react-homeworks.git/static/js/runtime-main.b330bf48.js",
+    "runtime-main.js.map": "/Shidesin/simple-react-homeworks.git/static/js/runtime-main.b330bf48.js.map",
+    "static/js/2.95f0068c.chunk.js": "/Shidesin/simple-react-homeworks.git/static/js/2.95f0068c.chunk.js",
+    "static/js/2.95f0068c.chunk.js.map": "/Shidesin/simple-react-homeworks.git/static/js/2.95f0068c.chunk.js.map",
+    "index.html": "/Shidesin/simple-react-homeworks.git/index.html",
+    "precache-manifest.c565415765eeb96828b4902dc10d04d5.js": "/Shidesin/simple-react-homeworks.git/precache-manifest.c565415765eeb96828b4902dc10d04d5.js",
+    "service-worker.js": "/Shidesin/simple-react-homeworks.git/service-worker.js",
+    "static/css/main.829ad4ba.chunk.css.map": "/Shidesin/simple-react-homeworks.git/static/css/main.829ad4ba.chunk.css.map",
+    "static/js/2.95f0068c.chunk.js.LICENSE.txt": "/Shidesin/simple-react-homeworks.git/static/js/2.95f0068c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b330bf48.js",
+    "static/js/2.95f0068c.chunk.js",
+    "static/css/main.829ad4ba.chunk.css",
+    "static/js/main.bc49df7d.chunk.js"
+  ]
+}
