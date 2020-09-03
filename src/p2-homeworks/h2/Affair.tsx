@@ -1,5 +1,7 @@
-import React from "react";
+import React from 'react';
 import {AffairType} from './HW2';
+import SuperButton from '../h4/common/c2-SuperButton/SuperButton';
+import styles from './HW2.module.css'
 
 type AffairPropsType = {
     // key не нужно типизировать
@@ -8,16 +10,19 @@ type AffairPropsType = {
 }
 
 function Affair(props: AffairPropsType) {
+
     const deleteCallback = () => {
         props.deleteAffairCallback(props.affair._id)
     };
 
     return (
-        <div>
+        <div className={styles.affair_style}>
+            <span className={styles.affair}>{props.affair.name}</span>
 
-            {props.affair.name}
+                <SuperButton onClick={deleteCallback}>X</SuperButton>
 
-            <button onClick={deleteCallback}>X</button>
+
+
         </div>
     );
 }

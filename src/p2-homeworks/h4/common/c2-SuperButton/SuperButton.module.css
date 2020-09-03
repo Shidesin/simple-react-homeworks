@@ -1,23 +1,19 @@
 .default {
-    background: #3f51b5;
-    margin-top: 5px;
-    width: 50%;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.8125rem;
-    padding: 4px 10px;
-    border-radius: 4px;
+    display: inline-block;
+    background-color: #999999;
+    color: white;
+    padding: .5em 1em;
+    border: 2px solid;
+    border-radius: 5px;
 }
+.default:hover { background: #06adff; }
 
 .red {
-    margin-top: 5px;
-    background: red;
-    width: 50%;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.8125rem;
-    padding: 4px 10px;
-    border-radius: 4px;
+    display: inline-block;
+    background-color: white;
+    color: red;
+    padding: .5em 1em;
+    border: 2px solid;
+    border-radius: 5px;
 }
+.red:hover { background: #a7a8c1; }

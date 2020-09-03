@@ -18,6 +18,7 @@ function HW3() {
         setUsers(newUsers);
     }
     console.log(users)
+
     return (
         <div className={s.column}>
             <hr/>

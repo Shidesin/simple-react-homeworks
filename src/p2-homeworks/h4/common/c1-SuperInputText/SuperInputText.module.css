@@ -1,11 +1,14 @@
 .superInput {
-    border: 1px solid darkviolet;
-    background: goldenrod;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: white;
 }
+.superInput:hover { background: #a7a7a7; }
 
 .errorInput {
-    border: 3px solid lime;
-    background: #ff8c00;
+    border-radius: 5px;
+    border: 2px solid red;
+    background: white;
 }
 
 .error {
