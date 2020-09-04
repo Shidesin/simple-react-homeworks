@@ -5,7 +5,7 @@ import s from './HW1.module.css'
 const messageData = {
     avatar: "https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg",
     name: "Shidesin",
-    message: "Ну вот ушел ты с завода и что?! А дальше то что?!",
+    message: "Ну вот ушел ты с завода и что?! Хоть бы CSS выучил...",
     time: "22:00",
 };
 

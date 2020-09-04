@@ -3,16 +3,23 @@ import HW1 from "../../h1/HW1";
 import HW2 from "../../h2/HW2";
 import HW3 from "../../h3/HW3";
 import HW4 from "../../h4/HW4";
+import {Paper} from '@material-ui/core';
 
 function JuniorPlus() {
     return (
-        <div>
-            <HW1/>
-            {/*<HW2/>*/}
-            {/*<HW3/>*/}
-            <HW4/>
-            {/*<HW6/>*/}
-        </div>
+            <div>
+                <Paper style={{padding: '10px', margin: '10px'}} elevation={5}>
+                    <HW1/>
+                </Paper>
+                {/*<HW2/>*/}
+                {/*<HW3/>*/}
+                <Paper style={{padding: '10px', margin: '10px'}} elevation={5}>
+                    <HW4/>
+                </Paper>
+                {/*<HW6/>*/}
+            </div>
+
+
     );
 }
 
