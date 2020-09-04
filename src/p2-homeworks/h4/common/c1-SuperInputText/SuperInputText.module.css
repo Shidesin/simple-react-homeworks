@@ -1,15 +1,19 @@
 .superInput {
-    border-radius: 5px;
-    border: 1px solid black;
-    background: white;
+    padding: 5px 10px;
+    border-style: none;
+    border-radius: 15px;
+    margin: 10px 0 ;
+    box-shadow: 0 0 0 1px #2d2d2d, 0 0 5px 0 #2d2d2d;
+    outline: none;
 }
-.superInput:hover { background: #a7a7a7; }
 
 .errorInput {
-    border-radius: 5px;
-    border: 2px solid red;
-    background: white;
+
+    box-shadow: 0 0 0 1px #ec0909, 0 0 5px 0 #ff0000;
+    outline: none;
+    cursor: pointer;
 }
+
 
 .error {
     color: red;

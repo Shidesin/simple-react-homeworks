@@ -1,0 +1,13 @@
+.input_box {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.input_box:hover {
+    background:  linear-gradient(180deg, #9aa3a9 30%, #21cbf3 90%);
+    box-shadow: 0 3px 5px 2px rgb(33, 203, 243);
+}
