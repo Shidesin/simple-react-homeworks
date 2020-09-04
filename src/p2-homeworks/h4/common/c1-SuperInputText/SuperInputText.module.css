@@ -8,7 +8,10 @@
 }
 
 .errorInput {
-
+    padding: 5px 10px;
+    border-style: none;
+    border-radius: 15px;
+    margin: 10px 0 ;
     box-shadow: 0 0 0 1px #ec0909, 0 0 5px 0 #ff0000;
     outline: none;
     cursor: pointer;
