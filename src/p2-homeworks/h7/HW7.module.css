@@ -1,6 +1,5 @@
-.App {
+.column {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: gainsboro;
 }
