@@ -1,11 +1,10 @@
-import React, {useState} from "react";
-import SuperSelect from "./common/c5-SuperSelect/SuperSelect";
-import SuperRadio from "./common/c6-SuperRadio/SuperRadio";
+import React, {useState} from 'react';
+import SuperSelect from './common/c5-SuperSelect/SuperSelect';
+import SuperRadio from './common/c6-SuperRadio/SuperRadio';
 import s from './HW7.module.css'
 
 
-
-const arr: string[] = ["x", "y", "z"];
+const arr: string[] = ['x', 'y', 'z'];
 
 
 function HW7() {
@@ -13,7 +12,7 @@ function HW7() {
 
     return (
         <div className={s.column}>
-           <>homeworks 7</>
+            <>homeworks 7</>
 
 
             {/*should work (должно работать)*/}
@@ -25,13 +24,16 @@ function HW7() {
                 />
             </div>
             <div>
-                <SuperRadio
-                    name={"radio"}
-                    options={arr}
-                    value={value}
-                    onChangeOption={onChangeOption}
-                />
+                <div>
+                    <SuperRadio
+                        name={'radio'}
+                        options={arr}
+                        value={value}
+                        onChangeOption={onChangeOption}
+                    />
+                </div>
             </div>
+
 
         </div>
     );
