@@ -13,6 +13,9 @@ function PreJunior() {
                     <HW1/>
                 </Paper>
                 <Paper style={{padding: '10px', margin: '10px'}} elevation={5}>
+                    <HW2/>
+                </Paper>
+                <Paper style={{padding: '10px', margin: '10px'}} elevation={5}>
                     <HW6 />
                 </Paper>
                 {/*<HW2/>*/}

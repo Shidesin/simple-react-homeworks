@@ -14,9 +14,6 @@ function Junior() {
                     <HW1/>
                 </Paper>
                 <Paper style={{padding: '10px', margin: '10px'}} elevation={5}>
-                    <HW2/>
-                </Paper>
-                <Paper style={{padding: '10px', margin: '10px'}} elevation={5}>
                     <HW3/>
                 </Paper>
                 <Paper style={{padding: '10px', margin: '10px'}} elevation={5}>
