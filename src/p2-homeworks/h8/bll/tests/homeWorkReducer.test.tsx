@@ -42,9 +42,6 @@ test('check age 18', () => {
     const newState = homeWorkReducer(initialState, SortAgeAC());
 
     expect(newState.length).toBe(4)
-    expect(newState[0].age).toBe(66)
-    expect(newState[1].age).toBe(44)
-    expect(newState[2].age).toBe(40)
-    expect(newState[3].age).toBe(55)
+    expect(newState.every(u => u.age >18)).toBeTruthy()
 
 });
