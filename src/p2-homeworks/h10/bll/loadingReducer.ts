@@ -1,14 +1,25 @@
-const initState = {
+let initState =  false;
 
-};
-
-export const loadingReducer = (state = initState, action: any): any => { // fix any
+export const loadingReducer = (state = initState, action: loadingACType): boolean=> { // fix any
+    debugger
     switch (action.type) {
-        case "": {
-            return state;
+        case 'SET_LOAD': {
+            debugger
+            return (
+                action.payload
+            )
         }
-        default: return state;
+        default:
+            return state;
     }
 };
 
-export const loadingAC = (): any => {}; // fix any
+type loadingACType = {
+    type: 'SET_LOAD'
+    payload: boolean
+}
+
+export const loadingAC = (load: boolean): loadingACType => {
+    debugger
+    return {type: 'SET_LOAD', payload: load}
+}; // fix any
