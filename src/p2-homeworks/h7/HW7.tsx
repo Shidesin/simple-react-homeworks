@@ -26,7 +26,7 @@ function HW7() {
             <div>
                 <div>
                     <SuperRadio
-                        name={'radio'}
+                        name={'My_radio'}
                         options={arr}
                         value={value}
                         onChangeOption={onChangeOption}

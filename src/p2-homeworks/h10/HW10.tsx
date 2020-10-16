@@ -8,15 +8,12 @@ import './Styles.css'
 
 
 function HW10() {
-    // useSelector, useDispatch
+
     let dispatch = useDispatch()
 
     const loading = useSelector<AppStoreType>(state => state.loading)
 
     const setLoading = () => {
-        // dispatch
-        // setTimeout
-
         dispatch(loadingAC(true))
 
         setTimeout(() => {
