@@ -45,10 +45,10 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
         </label>
         </div>
 
-    )) : [];
+    )) : ['empty'];
 
     return (
-        <>in radio
+        <>in radio [{JSON.stringify(options)}
             {mappedOptions}
         </>
     );
