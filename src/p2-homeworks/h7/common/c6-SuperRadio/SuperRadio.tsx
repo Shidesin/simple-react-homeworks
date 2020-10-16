@@ -28,9 +28,10 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
     }
 
 
-    const mappedOptions = options ? options.map((o, i) => ( // map options with key
-        <div>elem
-        <label key={name + '-' + i}
+    const mappedOptions = options ? options.map((o, i) => {
+        return ( // map options with key
+        <div key={name + '-' + i}>elem
+        <label
                // className={css.radio}
         >label
             <input
@@ -45,8 +46,8 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
         </label>
         </div>
 
-    )) : ['empty'];
-
+    )}) : ['empty'];
+    console.log('o',mappedOptions)
     return (
         <>in radio [{JSON.stringify(options)}
             {mappedOptions}
