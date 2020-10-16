@@ -30,7 +30,7 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
 
     const mappedOptions = options ? options.map((o, i) => {
         return ( // map options with key
-        <div key={new  Date().toString()}>elem
+        <div key={new Date().getTime().toString()}>elem
         {/*<label*/}
         {/*       // className={css.radio}*/}
         {/*>label*/}
