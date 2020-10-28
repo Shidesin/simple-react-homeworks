@@ -43,7 +43,6 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
         </label>
 
     )}) : ['empty'];
-    // console.log('o',mappedOptions)
     return (
         <>
             {mappedOptions}

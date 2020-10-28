@@ -22,14 +22,11 @@ function HW10() {
         console.log('loading...');
     };
 
-
-
     return (
         <div>
             <hr/>
             homeworks 10
 
-            {/*should work (должно работать)*/}
             {loading
                 ? (
                     <div className="cssload-thecube">
