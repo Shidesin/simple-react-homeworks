@@ -7,8 +7,6 @@ import {useDispatch, useSelector} from 'react-redux';
 import {AppStoreType} from '../h10/bll/store';
 
 
-
-
 export function Request() {
     const [checked, setChecked] = useState<boolean>(false);
 
@@ -19,9 +17,13 @@ export function Request() {
     const sendRequest = () => {
         requestAPI.requestPost(checked)
             .then(res => {
-                debugger
                 dispatch(requestReducerAC(res.data.errorText))
             })
+            .catch(err => {
+                console.log({...err});
+                console.log(err.response ? err.response.data.errorText : err.message);
+                dispatch(requestReducerAC(err.message))
+        })
     }
 
 

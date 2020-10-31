@@ -1,28 +1,31 @@
-import React, { DetailedHTMLProps, InputHTMLAttributes} from 'react';
-import s from '../c7-SuperRange/SuperRange.module.css';
-
+import React, {DetailedHTMLProps, InputHTMLAttributes} from 'react';
+import {Slider} from '@material-ui/core';
 
 
 type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>;
 
 type SuperDoubleRangePropsType = DefaultInputPropsType & {
-    onChangeRange?: (value: [number, number]) => void
-    value?: [number, number]
+    onChangeRange?: (value: number[]) => void
+    numberValue?: number[]
     // min, max, step, disable, ...
 }
 
-const SuperDoubleRange: React.FC< SuperDoubleRangePropsType> = (
-    {onChangeRange, value, onChange, className, ...restProps}
+const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
+    {onChangeRange, numberValue}
 ) => {
 
 
-
-    const finalRangeClassName = `${s.range} ${className ? className : ""}`;
+    // const finalRangeClassName = `${s.range} ${className ? className : ""}`;
     return (
         <>
-            /
-        </>
-    );
+        <Slider value={numberValue} onChange={(event, value) => {
+            if (onChangeRange) {
+                onChangeRange(typeof value === 'number' ? [0, 0] : value)
+            }
+        }} valueLabelDisplay={'auto'} />
+</>
+)
+    ;
 }
 
 export default SuperDoubleRange;
