@@ -7,7 +7,6 @@ type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElem
 type SuperDoubleRangePropsType = DefaultInputPropsType & {
     onChangeRange?: (value: number[]) => void
     numberValue?: number[]
-    // min, max, step, disable, ...
 }
 
 const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
@@ -15,7 +14,6 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
 ) => {
 
 
-    // const finalRangeClassName = `${s.range} ${className ? className : ""}`;
     return (
         <>
         <Slider value={numberValue} onChange={(event, value) => {
